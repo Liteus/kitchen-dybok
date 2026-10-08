@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Остаточний розрахунок кутової кухні з dybok.com.ua: 6 варіантів з прямокутною кутовою тумбою, 3D, схема з розмірами, склад з посиланнями і ціни.">
+<meta name="description" content="Кухня з dybok.com.ua: 6 кутових і 6 прямих варіантів, 3D, схема з розмірами, склад з посиланнями і ціни.">
 <title>Кухня 422×136</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700&display=swap">
 <style>
@@ -75,10 +75,11 @@
 </head>
 <body>
 <div id="app">
-  <h1>Кухня 422×136: остаточний розрахунок</h1>
-  <p class="sub">Модулі з dybok.com.ua, ціни на 08.10.2026. Кутова компоновка за ескізом: прямокутна кутова тумба з мийкою, посудомийка, шухлядна тумба 40, плита, карго під пляшки, тумба 80, холодильник. Мийка, посудомийка і плита зсунуті від ескізу не більше ніж на 20 см. Верх стоїть над низом блок у блок. Кожен елемент у списку є посиланням на сайт. Кольори умовні.</p>
+  <h1>Кухня 422×136: кутова і пряма</h1>
+  <p class="sub">Модулі з dybok.com.ua, ціни на 08.10.2026. Шість кутових варіантів і шість прямих з тих самих серій. Кутова: прямокутна кутова тумба з мийкою, посудомийка, шухлядна тумба 40, плита, карго під пляшки, тумба 80, холодильник. Пряма: тумба під мийку 80 біля стіни, далі той самий порядок. Мийка, посудомийка і плита зсунуті від ескізу не більше ніж на 20 см. Верх стоїть над низом блок у блок. Кожен елемент у списку є посиланням на сайт. Кольори умовні.</p>
   <div class="controls">
-    <span class="lbl">Варіант:</span><div class="seg" id="segL"></div>
+    <span class="lbl">Кутова:</span><div class="seg" id="segL"></div>
+    <span class="lbl">Пряма:</span><div class="seg" id="segS"></div>
     <span class="lbl">Стільниця:</span><div class="seg" id="segT"><button data-v="0">1</button><button data-v="1">2</button><button data-v="2">3</button></div>
   </div>
   <main>
@@ -102,6 +103,7 @@
       <li>Не вклались у 45 тис. і замінені: Графіті (немає кутової під мийку), МоДа Люкс, Мері, Міленіум, Вінтаж (дорожчі за бюджет).</li>
       <li>MiroMark: ручки не входять, закладено <a href="https://www.dybok.com.ua/ua/product/detail/92681" target="_blank">ручку профільну 128 мм</a> на кожен фасад і шухляду; ніжки закриває цокольна планка. VIP-master Люкс: ручки в комплекті, ніжки закриває плінтус 10 см з ущільнювачем. Усе в розрахунку.</li>
       <li>Кутова MiroMark не позначена як «під мийку», під сифон може знадобитись виріз задньої стінки, варто уточнити в менеджера. Н15 у серіях Люкс зроблена саме під мийку. Холодильник під антресоллю не вище 195 см. Верх закінчується на 232 до 234 см, стеля 255.</li>
+      <li>Пряма кухня (варіанти 7 до 12): уся вздовж стіни 4,22 м. Мийка 0 до 80 (тумба під мийку 80), посудомийка 80 до 140, шухляди 40, плита 180 до 230, карго 20, тумба 80, холодильник 330 до 390, 32 см запасу в кінці. Верх над низом блок у блок, антресоль над холодильником є в усіх. Шафа під вбудовану витяжку є у 8 до 12 (у 7 звичайна витяжка). Торцевих поличок у прямій немає: з одного боку стіна, з другого холодильник. Стільниця 2,8 м.</li>
       <li>Стільниця тільки над тумбами, плюс 500 грн на стики і заглушки орієнтовно. Не входить: техніка, мийка, змішувач, витяжка, фартух, доставка, збірка.</li>
     </ul>
   </div>
@@ -120,7 +122,7 @@ const SER={
  'Лео':{id:92722,fam:'MIRO',base:'legs',plinth:true,lowH:82,ld:52,upH:90,ud:35,
    st:{front:'#d7cdbd',body:'#f2efea',frame:null,handle:'#9aa1a8',gloss:false,rail:false,plinthC:'#d7cdbd'},
    txt:'MiroMark. Корпус 52 см, ДСП 16 мм, петлі з доводчиком, шухляди на телескопічних направляючих. Торці скошені.',
-   C:{cR:['Низ кут Н 90°/820x1000x600 1дв, кутова прямокутна 95, під мийку',2735,'/ua/product/niz-kut-n-90820x1000x600-1dv-leo-leo-miromark'],b45:['Низ 45Н/820 1дв',1789,'/ua/product/detail/92781'],
+   C:{s80:['Низ 80НМ/820 2дв мийка',2178,'/ua/product/detail/92794'],cR:['Низ кут Н 90°/820x1000x600 1дв, кутова прямокутна 95, під мийку',2735,'/ua/product/niz-kut-n-90820x1000x600-1dv-leo-leo-miromark'],b45:['Низ 45Н/820 1дв',1789,'/ua/product/detail/92781'],
       dr:['Низ 40Н3ШХ/820, шухлядна, 3 шухляди',2948,'/ua/product/detail/92780'],cg:['Низ 20НК/820 карго, під пляшки',2169,'/ua/product/detail/92776'],b80:['Низ 80Н/820 2дв',2486,'/ua/product/detail/92791'],
       es:['Низ 30НЗК/820 кутове закінчення',1478,'/ua/product/detail/92778'],ucD:['Верх Кут В 45°/900 (600х600) 1дв, скошена',2935,'/ua/product/verh-kut-v-45900-600h600-1dv-leo-leo-miromark'],
       u40:['Верх 40В/900 1дв',1749,'/ua/product/detail/92732'],u60:['Верх 60В/900 2дв',2318,'/ua/product/detail/92751'],u30:['Верх 30В/900 1дв',1558,'/ua/product/detail/92726'],u20:['Верх 20В/900 1дв',1368,'/ua/product/detail/92724'],
@@ -130,38 +132,38 @@ const SER={
  'Глорі':{id:92392,fam:'MIRO',base:'legs',plinth:true,lowH:82,ld:52,upH:90,ud:35,
    st:{front:'#9fb3a6',body:'#f2efea',frame:null,handle:'#9aa1a8',gloss:false,rail:false,plinthC:'#9fb3a6'},
    txt:'MiroMark. Корпус 52 см, ДСП 16 мм, петлі з доводчиком, шухляди на телескопічних направляючих.',
-   C:{cR:['Низ кут Н 90°/820x1000x600 1дв, кутова прямокутна 95, під мийку',2899,'/ua/product/niz-kut-n-90820x1000x600-1dv-glori-glory-miromark'],b45:['Низ 45Н/820 1дв',1979,'/ua/product/detail/92457'],
+   C:{s80:['Низ 80НМ/820 2дв мийка',2533,'/ua/product/detail/92470'],cR:['Низ кут Н 90°/820x1000x600 1дв, кутова прямокутна 95, під мийку',2899,'/ua/product/niz-kut-n-90820x1000x600-1dv-glori-glory-miromark'],b45:['Низ 45Н/820 1дв',1979,'/ua/product/detail/92457'],
       dr:['Низ 40Н3ШХ/820, шухлядна, 3 шухляди',3239,'/ua/product/detail/92456'],cg:['Низ 20НК/820 карго, під пляшки',2249,'/ua/product/detail/92451'],b80:['Низ 80Н/820 2дв',2839,'/ua/product/detail/92467'],
       esK:['Низ 30НЗК/820 кутове закінчення',1478,'/ua/product/detail/92453'],esR:['Низ 30НЗР/820 1дв, радіусне закінчення 32',3883,'/ua/product/detail/92454'],
       ucD:['Верх Кут В 45°/900 (600х600) 1дв, скошена',3059,'/ua/product/verh-kut-v-45900-600h600-1dv-glori-glory-miromark'],
       u40:['Верх 40В/900 1дв',2043,'/ua/product/detail/92406'],u60:['Верх 60В/900 2дв',2639,'/ua/product/detail/92426'],u30:['Верх 30В/900 1дв',1737,'/ua/product/detail/92397'],u20:['Верх 20В/900 1дв',1449,'/ua/product/detail/92395'],
-      u80:['Верх 80В/900 2дв',3184,'/ua/product/detail/92438'],ant:['Верх 60В/360 1дв газ ліфт, над холодильником',1554,'/ua/product/detail/92420'],
+      u80:['Верх 80В/900 2дв',3184,'/ua/product/detail/92438'],hc:['Верх 60ВВТ/860 1дв, шафа під вбудовану витяжку',2472,'/ua/product/verh-60vvt860-1dv-vitazka-teleskop-liva-glori-glory-miromark'],ant:['Верх 60В/360 1дв газ ліфт, над холодильником',1554,'/ua/product/detail/92420'],
       uesK:['Верх 30ВЗК/900 кутове закінчення',983,'/ua/product/detail/92399'],uesR:['Верх 30ВЗР/720 1дв, радіусне закінчення (72 см)',3095,'/ua/product/detail/92402'],
       pl:['Цокольна планка з кріпленнями 2.0 м',541,'/ua/product/detail/92670'],pc:['Цокольна планка, кутове закінчення',343,'/ua/product/detail/92672'],pr:['Цокольна планка, радіусне закінчення',680,'/ua/product/detail/92673'],hd:HD}},
  'Альбіна Люкс':{id:42018,fam:'VIP',base:'legs',plinth:true,lowH:82,ld:50,upH:92,ud:30,
    st:{front:'#c9b79c',body:'#efece6',frame:null,handle:'#3a3d41',gloss:false,rail:false,plinthC:'#c9b79c'},
    txt:'VIP-master, серія Люкс. Корпус 50 см. Кутова під мийку Н15 прямокутна, верхня кутова В58 Г-подібна 92 см. Ручки в комплекті.',
-   C:{cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2679,'/ua/product/detail/42071'],b45:['Н4 Тумба 1Д 45',2135,'/ua/product/detail/42088'],
+   C:{s80:['Н14 Тумба мийка 2Д 80',2999,'/ua/product/detail/42070'],cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2679,'/ua/product/detail/42071'],b45:['Н4 Тумба 1Д 45',2135,'/ua/product/detail/42088'],
       es:['Н37R Полиці кутові, радіусні',1849,'/ua/product/detail/55133'],dr:['Н9 Тумба 3Ш 40, шухлядна',4576,'/ua/product/detail/42093'],cg:['Н1+ Карго 20, під пляшки',3829,'/ua/product/detail/42065'],
       b80:['Н7 Тумба 2Д 80',3199,'/ua/product/detail/42091'],uc:['В58 Тумба кутова 60х60, 92 см',4399,'/ua/product/detail/43633'],U20:['В41 Полиці 20, відкриті',1149,'/ua/product/detail/42046'],
       U30:['В42 Тумба 1Д 30',1918,'/ua/product/detail/42047'],U40:['В43 Тумба 1Д 40',2107,'/ua/product/detail/42048'],U60:['В46 Тумба 2Д 60',2936,'/ua/product/detail/42051'],
-      U80:['В48 Тумба 2Д 80',3249,'/ua/product/detail/42053'],ues:['В56R Полиці кутові 92, радіусні',1173,'/ua/product/detail/55123'],ant:['В10 Тумба низька 60, над холодильником',1899,'/ua/product/detail/42020'],...VPL}},
+      U80:['В48 Тумба 2Д 80',3249,'/ua/product/detail/42053'],ues:['В56R Полиці кутові 92, радіусні',1173,'/ua/product/detail/55123'],ant:['В10 Тумба низька 60, над холодильником',1899,'/ua/product/detail/42020'],hc:['В60 Окапник 60, шафа під вбудовану витяжку',4219,'/ua/product/detail/74727'],...VPL}},
  'Родос Люкс':{id:87485,fam:'VIP',base:'legs',plinth:true,lowH:82,ld:50,upH:92,ud:30,
    st:{front:'#8e7a66',body:'#efece6',frame:null,handle:'#2f3338',gloss:false,rail:false,plinthC:'#8e7a66'},
    txt:'VIP-master, серія Люкс. Корпус 50 см, фасади ДСП 18 мм. Кутова під мийку Н15 прямокутна, верхня кутова В58 Г-подібна 92 см. Ручки в комплекті.',
-   C:{cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2779,'/ua/product/detail/87525'],b45:['Н4 Тумба 1Д 45',2263,'/ua/product/detail/87514'],
+   C:{s80:['Н14 Тумба мийка 2Д 80',3198,'/ua/product/detail/87524'],cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2779,'/ua/product/detail/87525'],b45:['Н4 Тумба 1Д 45',2263,'/ua/product/detail/87514'],
       es:['Н37R Полиці кутові, радіусні',1849,'/ua/product/detail/87553'],dr:['Н9 Тумба 3Ш 40, шухлядна',4599,'/ua/product/detail/87519'],cg:['Н1+ Карго 20, під пляшки',3823,'/ua/product/detail/87511'],
       b80:['Н7 Тумба 2Д 80',3398,'/ua/product/detail/87517'],uc:['В58 Тумба кутова 60х60, 92 см',4669,'/ua/product/detail/87546'],U20:['В41 Полиці 20, відкриті',1149,'/ua/product/detail/87537'],
       U30:['В42 Тумба 1Д 30',2046,'/ua/product/detail/87500'],U40:['В43 Тумба 1Д 40',2264,'/ua/product/detail/87501'],U60:['В46 Тумба 2Д 60',3189,'/ua/product/detail/87504'],
-      U80:['В48 Тумба 2Д 80',3569,'/ua/product/detail/87506'],b20:['Н1 Полиці + фасад петлі 200х720',1659,'/ua/product/detail/87554'],ues:['В56R Полиці кутові 92, радіусні',1173,'/ua/product/detail/87544'],ant:['В10 Тумба низька 60, над холодильником',1958,'/ua/product/detail/87495'],...VPL}},
+      U80:['В48 Тумба 2Д 80',3569,'/ua/product/detail/87506'],b20:['Н1 Полиці + фасад петлі 200х720',1659,'/ua/product/detail/87554'],ues:['В56R Полиці кутові 92, радіусні',1173,'/ua/product/detail/87544'],ant:['В10 Тумба низька 60, над холодильником',1958,'/ua/product/detail/87495'],hc:['В60 Окапник 60, шафа під вбудовану витяжку',4324,'/ua/product/detail/87566'],...VPL}},
  'ГаМа Люкс':{id:104271,fam:'VIP',base:'legs',plinth:true,lowH:82,ld:50,upH:92,ud:30,
    st:{front:'#7d8a96',body:'#efece6',frame:null,handle:'#2f3338',gloss:false,rail:false,plinthC:'#7d8a96'},
    txt:'VIP-master, серія Люкс. Корпус 50 см. Кутова під мийку Н15 прямокутна, верхня кутова В58 Г-подібна 92 см. Торці скошені (радіусних у серії немає). Ручки в комплекті.',
-   C:{cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2819,'/ua/product/detail/104340'],b45:['Н4 Тумба 1Д 45',2249,'/ua/product/detail/104329'],
+   C:{s80:['Н14 Тумба мийка 2Д 80',3249,'/ua/product/detail/104339'],cR:['Н15 Заглушка мийка 1Д 95, кутова прямокутна під мийку',2819,'/ua/product/detail/104340'],b45:['Н4 Тумба 1Д 45',2249,'/ua/product/detail/104329'],
       es:['Н17 Полиці кутові, скошені',1341,'/ua/product/detail/104342'],dr:['Н9 Тумба 3Ш 40, шухлядна',5049,'/ua/product/detail/104334'],cg:['Н1+ Карго 20, під пляшки',3846,'/ua/product/detail/104326'],
       b80:['Н7 Тумба 2Д 80',3449,'/ua/product/detail/104332'],uc:['В58 Тумба кутова 60х60, 92 см',4485,'/ua/product/detail/104309'],U20:['В41 Полиці 20, відкриті',1149,'/ua/product/detail/104293'],
       U30:['В42 Тумба 1Д 30',1968,'/ua/product/detail/104295'],U40:['В43 Тумба 1Д 40',2222,'/ua/product/detail/104296'],U60:['В46 Тумба 2Д 60',3036,'/ua/product/detail/104299'],
-      U80:['В48 Тумба 2Д 80',3486,'/ua/product/detail/104301'],ues:['В55 Полиці кутові 92, скошені',928,'/ua/product/detail/104308'],ant:['В10 Тумба низька 60, над холодильником',2049,'/ua/product/detail/104282'],...VPL}}
+      U80:['В48 Тумба 2Д 80',3486,'/ua/product/detail/104301'],ues:['В55 Полиці кутові 92, скошені',928,'/ua/product/detail/104308'],ant:['В10 Тумба низька 60, над холодильником',2049,'/ua/product/detail/104282'],hc:['В60 Окапник 60, шафа під вбудовану витяжку',4479,'/ua/product/detail/104310'],...VPL}}
 };
 const VARIANTS=[
  {n:1,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Бюджет',ser:'Лео',lt:'MIRO',hoodCab:false,ends:'скошені',ant:true},
@@ -169,7 +171,13 @@ const VARIANTS=[
  {n:3,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Середній',ser:'Глорі',lt:'MIRO',hoodCab:false,ends:'скошені',ant:true,round:false},
  {n:4,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Середній',ser:'Альбіна Люкс',lt:'VIP',hoodCab:false,ends:'радіусні',ant:false,round:true},
  {n:5,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Максимум',ser:'ГаМа Люкс',lt:'VIP',hoodCab:false,ends:'скошені',ant:false,round:false},
- {n:6,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Максимум',ser:'Родос Люкс',lt:'VIP',hoodCab:false,ends:'радіусні',ant:false,round:true,compact:true}
+ {n:6,lay:'L',corner:'прямокутна 95, мийка над нею',tier:'Максимум',ser:'Родос Люкс',lt:'VIP',hoodCab:false,ends:'радіусні',ant:false,round:true,compact:true},
+ {n:7,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Бюджет',ser:'Лео',lt:'MIRO',hoodCab:false,ends:'немає',ant:true},
+ {n:8,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Бюджет',ser:'Лео',lt:'MIRO',hoodCab:true,ends:'немає',ant:true},
+ {n:9,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Середній',ser:'Глорі',lt:'MIRO',hoodCab:true,ends:'немає',ant:true},
+ {n:10,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Середній',ser:'Альбіна Люкс',lt:'VIP',hoodCab:true,ends:'немає',ant:true},
+ {n:11,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Максимум',ser:'ГаМа Люкс',lt:'VIP',hoodCab:true,ends:'немає',ant:true},
+ {n:12,lay:'S',corner:'пряма, мийка 80 біля стіни',tier:'Максимум',ser:'Родос Люкс',lt:'VIP',hoodCab:true,ends:'немає',ant:true}
 ];
 const TOPS=[
  {name:'MebelStar 38 мм, Мармур вишуканий',p:1458,u:'/ua/product/detail/89712',color:'#e7e2d9',rough:.55},
@@ -186,6 +194,22 @@ function layoutOf(v){
   const u=(wall,a,b,key,doors,o={})=>up.push({wall,a,b,k:'cab',key,doors,...o});
   const ap=(k,a,b)=>low.push({wall:'long',a,b,k});
   const D=s.ld, R=!!v.round, S0=s.fam==='MIRO'?54:55;
+  if(v.lay==='S'){ // straight: sink 80 by the side wall, dishwasher, drawers 40, stove, cargo 20, cabinet 80, fridge
+    c('long',0,80,'s80',2);ap('pmm',80,140);c('long',140,180,'dr',0,{drawers:3});ap('stove',180,230);c('long',230,250,'cg',1);c('long',250,330,'b80',2);ap('fridge',330,390);ap('gap',390,422);
+    if(s.fam==='MIRO'){
+      u('long',0,80,'u80',2);u('long',80,140,'u60',2);
+      if(v.hoodCab){u('long',140,170,'u30',1);u('long',175,235,'hc',1,{y0:146,y1:232,hoodCab:true});u('long',235,255,'u20',1);u('long',255,335,'u80',2);if(v.ant)u('long',335,395,'ant',1,{y0:196,y1:232,horiz:true});}
+      else{u('long',140,180,'u40',1);up.push({k:'hood',a:180,b:230});u('long',230,250,'u20',1);u('long',250,330,'u80',2);if(v.ant)u('long',330,390,'ant',1,{y0:196,y1:232,horiz:true});}
+      extras.push(['pl',2],['hd','doors']);
+    } else {
+      u('long',0,80,'U80',2);u('long',80,140,'U60',2);
+      if(v.hoodCab){u('long',140,170,'U30',1);u('long',175,235,'hc',1,{y0:142,y1:234,hoodCab:true});u('long',235,255,'U20',0,{open:true});u('long',255,335,'U80',2);if(v.ant)u('long',335,395,'ant',1,{y0:198,y1:234,horiz:true});}
+      else{u('long',140,180,'U40',1);up.push({k:'hood',a:180,b:230});u('long',230,250,'U20',0,{open:true});u('long',250,330,'U80',2);if(v.ant)u('long',330,390,'ant',1,{y0:198,y1:234,horiz:true});}
+      extras.push(['pl',2],['sl',1]);
+    }
+    tops.push({wall:'long',a:0,b:180},{wall:'long',a:230,b:330});
+    return finish({x:40,z:30});
+  }
   // lower: rectangular corner 95 along the long wall (sink over it), dishwasher, drawer unit 40, stove, bottle cargo 20, cabinet 80, fridge
   low.push({wall:'long',a:0,b:95,k:'blind',key:'cR',open:[S0,95]});
   ap('pmm',95,155);c('long',155,195,'dr',0,{drawers:3});ap('stove',195,245);c('long',245,265,'cg',1);c('long',265,345,'b80',2);ap('fridge',345,405);ap('gap',405,422);
@@ -207,12 +231,14 @@ function layoutOf(v){
     extras.push(['pl',2],['sl',2]);
   }
   tops.push({wall:'long',a:0,b:195},{wall:'long',a:245,b:345},{wall:'short',a:60,b:shortEnd});
-  const sinkAt={x:60,z:30};
+  return finish({x:60,z:30});
+  function finish(sinkAt){
   const topLen=Math.round(tops.reduce((a,t)=>a+Math.ceil((t.b-t.a)/10)/10,0)*10)/10;
   const order=[];for(const it of [...low,...up])if(it.key&&!order.includes(it.key))order.push(it.key);
   const num={};order.forEach((k,i)=>num[k]=i+1);
   let doors=0;for(const it of [...low,...up]){if(it.drawers)doors+=it.drawers;else if(it.k==='cab')doors+=it.doors||0;else if(it.k==='blind')doors+=1;else if(/corner/.test(it.k))doors+=1;else if(/endShelf/i.test(it.k)&&it.round)doors+=1;}
   return {s,low,up,tops,topLen,order,num,topNum:order.length+1,extras,doors,sinkAt};
+  }
 }
 function rowsOf(v,top){
   const Lo=layoutOf(v),s=Lo.s,t=TOPS[top];
@@ -484,7 +510,7 @@ function schemeSVG(v){
 /* ---------- list ---------- */
 function sideHTML(v,top){
   const s=SER[v.ser],r=rowsOf(v,top),furn=furnOf(r),tot=sumRows(r);
-  let h=`<div class="style"><b>${v.n}. Кутова, ${v.tier.toLowerCase()}: ${v.ser}${v.hoodCab?' + шафа під витяжку':''}</b> <a href="${SITE}/ua/product/detail/${s.id}" target="_blank">серія на сайті</a><br><span class="note">${s.txt}</span></div>`;
+  let h=`<div class="style"><b>${v.n}. ${v.lay==='S'?'Пряма':'Кутова'}, ${v.tier.toLowerCase()}: ${v.ser}${v.hoodCab?' + шафа під витяжку':''}</b> <a href="${SITE}/ua/product/detail/${s.id}" target="_blank">серія на сайті</a><br><span class="note">${v.lay==='S'?s.txt.replace(/ Кутова[^.]*./,'').replace(/ Торці[^.]*./,''):s.txt}</span></div>`;
   h+='<table><tr><th></th><th>Елемент (посилання на сайт)</th><th class="n">К-сть</th><th class="n">Сума</th></tr>';
   for(const x of r){
     h+=`<tr class="r" data-row="${x.id}"><td>${x.id?`<span class="b">${x.id}</span>`:''}</td><td>${x.u?`<a href="${SITE}${x.u}" target="_blank">${x.name}</a>`:x.name}<span class="sep"></span><span class="note">${fmt(x.p)} грн${x.unit?' за м':''}</span></td><td class="n">${String(x.q).replace('.',',')}${x.unit?' м':''}</td><td class="n">${fmt(x.q*x.p)}</td></tr>`;
@@ -504,10 +530,10 @@ function fitOf(v){
     if(it.k==='gap')continue;
     if(it.wall==='short')sh=Math.max(sh,it.b);else lo=Math.max(lo,it.b);
   }
-  return {long:`${lo} см, запас ${422-lo}`,short:`${sh} см, запас ${136-sh}`};
+  return {long:`${lo} см, запас ${422-lo}`,short:v.lay==='S'?'не використовується':`${sh} см, запас ${136-sh}`};
 }
 function overviewHTML(){
-  let h='<table class="ov"><tr><th>№</th><th>Рівень</th><th>Серія</th><th>Кутова низ</th><th>Торці</th><th>Шафа під витяжку</th><th>Антресоль</th><th>Довга стіна, з 422</th><th>Коротка, з 136</th><th class="n">Меблі</th><th class="n">+ стільниця 1</th><th class="n">+ стільниця 2</th><th class="n">+ стільниця 3</th><th>На сайті</th></tr>';
+  let h='<table class="ov"><tr><th>№</th><th>Рівень</th><th>Серія</th><th>Компоновка</th><th>Торці</th><th>Шафа під витяжку</th><th>Антресоль</th><th>Довга стіна, з 422</th><th>Коротка, з 136</th><th class="n">Меблі</th><th class="n">+ стільниця 1</th><th class="n">+ стільниця 2</th><th class="n">+ стільниця 3</th><th>На сайті</th></tr>';
   for(const v of VARIANTS){const s=SER[v.ser],f=fitOf(v);
     h+=`<tr><td>${v.n}</td><td>${v.tier}</td><td><b>${v.ser}</b></td><td>${v.corner}</td><td>${v.ends}</td><td>${v.hoodCab?'так':'ні'}</td><td>${v.ant?'так':'ні'}</td><td>${f.long}</td><td>${f.short}</td><td class="n">${fmt(furnOf(rowsOf(v,0)))}</td>${[0,1,2].map(t=>{const x=totalFor(v,t);return `<td class="n ${x<=45000?'ok':'bad'}">${fmt(x)}</td>`}).join('')}<td><a href="${SITE}/ua/product/detail/${s.id}" target="_blank">серія</a></td></tr>`;}
   return h+'</table>';
@@ -524,17 +550,17 @@ function buildCards(target){
     ren.render(makeScene(v,0).scene,cam);const i3=ren.domElement.toDataURL('image/jpeg',0.88);
     ren.setSize(RW,RP);oc.position.set(205,900,70);oc.up.set(0,0,-1);oc.lookAt(205,0,70);oc.updateProjectionMatrix();
     ren.render(makeScene(v,0,true).scene,oc);const ip=ren.domElement.toDataURL('image/jpeg',0.88);
-    html+=`<section class="card"><div class="ch"><h2>Варіант ${v.n}. Кутова, ${v.tier.toLowerCase()}: ${v.ser}${v.hoodCab?' + шафа під витяжку':''}</h2><a class="btn" href="${SITE}/ua/product/detail/${s.id}" target="_blank">Як виглядає на сайті</a></div>
+    html+=`<section class="card"><div class="ch"><h2>Варіант ${v.n}. ${v.lay==='S'?'Пряма':'Кутова'}, ${v.tier.toLowerCase()}: ${v.ser}${v.hoodCab?' + шафа під витяжку':''}</h2><a class="btn" href="${SITE}/ua/product/detail/${s.id}" target="_blank">Як виглядає на сайті</a></div>
       <div class="cg"><div><figure><img src="${i3}" alt="3D"><figcaption>3D, вигляд спереду</figcaption></figure><figure><img src="${ip}" alt="план"><figcaption>Вигляд зверху: низ і стільниця (прозора), верх прибрано</figcaption></figure><figure class="sch">${schemeSVG(v)}<figcaption>Схема зверху з розмірами, см. Червоне: зазори і запас</figcaption></figure></div><div>${sideHTML(v,0)}</div></div></section>`;
   }
   target.innerHTML=html;ren.dispose();ren.forceContextLoss();
 }
 
 /* ---------- interactive ---------- */
-const hv=+(location.hash.match(/v=?(\d)/)||[])[1];
+const hv=+((location.hash.match(/v=?([0-9]+)/)||[])[1]);
 const state={v:VARIANTS.find(v=>v.n===hv)||VARIANTS[0],top:0};
-const segL=document.getElementById('segL'),segT=document.getElementById('segT');
-for(const v of VARIANTS){const b=document.createElement('button');b.dataset.v=v.n;b.textContent=`${v.n} ${v.ser}${v.hoodCab?' + витяжка':''}`;segL.appendChild(b);}
+const segL=document.getElementById('segL'),segS=document.getElementById('segS'),segT=document.getElementById('segT');
+for(const v of VARIANTS){const b=document.createElement('button');b.dataset.v=v.n;b.textContent=`${v.n} ${v.ser}${v.hoodCab?' + витяжка':''}`;(v.lay==='S'?segS:segL).appendChild(b);}
 const view=document.getElementById('view'),tip=document.getElementById('tip'),side=document.getElementById('side');
 const ren=new THREE.WebGLRenderer({antialias:true});ren.setPixelRatio(Math.min(devicePixelRatio,2));ren.shadowMap.enabled=true;ren.shadowMap.type=THREE.PCFSoftShadowMap;
 view.prepend(ren.domElement);
@@ -547,9 +573,9 @@ const highlight=row=>{sel=row;for(const m of cur.picks){if(m.material.emissive){
   side.querySelectorAll('tr.r').forEach(tr=>tr.classList.toggle('hl',tr.dataset.row===String(row)));};
 const rebuild=()=>{cur=makeScene(state.v,state.top);side.innerHTML=sideHTML(state.v,state.top);document.getElementById('schemeBox').innerHTML='<div class="sch">'+schemeSVG(state.v)+'</div>';
   side.querySelectorAll('tr.r').forEach(tr=>{tr.onmouseenter=()=>highlight(tr.dataset.row);tr.onmouseleave=()=>highlight(null);});
-  segL.querySelectorAll('button').forEach(b=>b.classList.toggle('on',+b.dataset.v===state.v.n));
+  [segL,segS].forEach(g=>g.querySelectorAll('button').forEach(b=>b.classList.toggle('on',+b.dataset.v===state.v.n)));
   segT.querySelectorAll('button').forEach(b=>b.classList.toggle('on',+b.dataset.v===state.top));};
-segL.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;state.v=VARIANTS.find(v=>v.n===+b.dataset.v);rebuild();});
+[segL,segS].forEach(g=>g.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;state.v=VARIANTS.find(v=>v.n===+b.dataset.v);rebuild();}));
 segT.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;state.top=+b.dataset.v;rebuild();});
 const ray=new THREE.Raycaster(),ptr=new THREE.Vector2();
 ren.domElement.addEventListener('pointermove',e=>{
